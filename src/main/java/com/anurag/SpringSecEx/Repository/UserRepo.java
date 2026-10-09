@@ -1,5 +1,7 @@
 package com.anurag.SpringSecEx.Repository;
 
-public class UserRepo extends JPARepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface UserRepo extends JpaRepository {
 
 }
